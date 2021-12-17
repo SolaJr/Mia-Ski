@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Menu DropDown</title>
+</head>
+<script type="text/javascript">
+  
+		  window.onscroll = function() {myFunction()};
+		
+		// Get the header
+		var header = document.getElementById("container");
+		
+		// Get the offset position of the navbar
+		var sticky = header.offsetTop;
+		
+		// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+		function myFunction() {
+		  if (window.pageYOffset > sticky) {
+		    header.classList.add("sticky");
+		  } else {
+		    header.classList.remove("sticky");
+		  }
+		}
+
+ </script>
+
+<body>
+    <div class="header" id="container">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a>
+                    <!-- Third Tier Drop Down -->
+                        <ul>
+                            <li><a href="https://www.vimeo.com/olusolababatunde">My Vimeo</a></li>
+                			<li><a href="https://www.linkedin.com">My Linkedin</a></li>
+                			<li><a href="https://www.solababatunde.com">My Work</a></li>
+           				</ul>
+                    
+                </li>
+                <li><a href="#">ItemMain</a>
+                <!-- First Tier Drop Down -->
+                <ul>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a>
+                        <!-- Third Tier Drop Down -->
+                        <ul>
+                            <li><a href="https://www.vimeo.com/olusolababatunde">My Vimeo</a></li>
+                			<li><a href="https://www.linkedin.com">My Linkedin</a></li>
+                			<li><a href="https://www.solababatunde.com">My Work</a></li>
+           				</ul>
+                    
+                <!-- Second Tier Drop Down -->
+                <ul>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Work</a>
+                        <!-- Third Tier Drop Down -->
+                        <ul>
+                            <li><a href="https://www.vimeo.com/olusolababatunde">My Vimeo</a></li>
+                			<li><a href="https://www.linkedin.com">My Linkedin</a></li>
+                			<li><a href="https://www.solababatunde.com">My Work</a></li>
+           				</ul>
+                    </ul>
+                </ul>
+           </ul>
+        </nav>
+        <h1>Sola's Skiing Resources</h1>
+        <h3>Learn to ski like Tiger Woods...</h3>
+        <p> not a good skier but he's famous right?</p>
+    </div>
+    <div class="hero-image">
+	  <div class="hero-text">
+	    <h4>Lessons</h4>
+	    
+	   </div>
+	</div>
+	<div class="row">
+		  <div class="column" style="padding:10%">
+		  	 <p style="text-align:left">Learn the Basics of Skiing for Free</p>
+	   		 <a href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cgd3b4fy8YdjiNf_co9kPsrKFqAKD3q6DZ7Wy5MaQD8CNtwEQASAAYMmm84zkpMATggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdf_8NkDqAMEqgSJAk_QbaM1uM1-ZVcyozcJXq47JrFWmBp0qGmDn8MCznhGICuaYYwpJoaqrz4KC2UCKaYKiCA9t2VYi0Mg1LQ0qkzvOYcH18TmPo11uOEf-3emFV4L7M0r5CPKniR87fEi0kgWPJ6sKy2NzNQZhHF_MjQrU_Nm6_N5tuZy4aQFrc8X-wjJbNp9Uc-rLuzm1dexQPwE7hXhy5A3sHflCXdJWhWq03jla9hUyWtahGtUyBtdSPX1Wi18_4r7H4t14Qo870dE_ttUSWEDcWbIqS6FF8bLWg1TI16lvb4gutcn6RRV4g9oNM9xq50AdRcFYw_CEk4T9URApCTIlOCevPQV_M2IxI1ELNbeSpiSBQ0IEjDfiJynu7r0zbsBkgUHCBN4ufL7JKAGVYAHkYCPJogHAZAHAqgHhAioB6jSG6gHtgeoB-DPG6gH6dQbqAeMzRuoB7HcG6gHpJqxAqgHkZ-xAqgHsJuxAqgHgcYbqAeJorECqAfVzhuoB6vFG6gHnNwbqAfmnbECqAfIn7ECkggLdTV2UjA3VG5CRjioCAHSCAQIABACsQkztgqwhr16ncgJF8gJjwGYCwG6Cy4IAxAFGAYgBigBMAVAAUgAWAtgAGgAcAGIAQCYAQGiAQoKAiAD0AEBkAIC2AEB0AsTuAwBuBP___________8BsBQDwBWBgIBA0BUB2BUBmBYBgBcBihcICAMYASgBMAGgFwE&num=1&cid=CAESD-D2Q3YK2rAxLOAZEa6Mrw&ad_cpn=%5BCPN%5D&sig=AOD64_3GAvB5Tsck49ERXBIq0xFP1cjWYg&adurl=https://www.youtube.com/watch%3Fv%3Du5vR07TnBF8&ctype=21&video_id=u5vR07TnBF8&client=ca-pub-6219811747049371'><button> Learn how to Skii</button></a>
+	  
+		  </div>
+		  <div class="column">
+		  <h3 style="text-align:left">Why?</h3>
+		  <p style="text-align:left">Learning to ski is a common activity practiced by many people with far too much money to spend as well as adolsecents that have far too much money to waste. As such, the skill is needed for the improvished when they break into high society.</p>
+	   		 
+		  </div>
+	</div>
+	<div class="hero-image-2">
+	  <div class="hero-text">
+	    <h4>Gear</h4>
+	    
+	   </div>
+	</div>
+
+
+	<div class="row">
+		  <div class="column">
+			  <h3 style="text-align:left">Why?</h3>
+			  <p style="text-align:left">Gear equipping is needed for safety and fun for the excessivly expensive venture that is skiing.</p>
+	   		 
+		  </div>
+
+			<div class="column" style="padding:10%">
+		  	 <p style="text-align:left">Learn to wear gear well</p>
+	   		 <a href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cgd3b4fy8YdjiNf_co9kPsrKFqAKD3q6DZ7Wy5MaQD8CNtwEQASAAYMmm84zkpMATggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdf_8NkDqAMEqgSJAk_QbaM1uM1-ZVcyozcJXq47JrFWmBp0qGmDn8MCznhGICuaYYwpJoaqrz4KC2UCKaYKiCA9t2VYi0Mg1LQ0qkzvOYcH18TmPo11uOEf-3emFV4L7M0r5CPKniR87fEi0kgWPJ6sKy2NzNQZhHF_MjQrU_Nm6_N5tuZy4aQFrc8X-wjJbNp9Uc-rLuzm1dexQPwE7hXhy5A3sHflCXdJWhWq03jla9hUyWtahGtUyBtdSPX1Wi18_4r7H4t14Qo870dE_ttUSWEDcWbIqS6FF8bLWg1TI16lvb4gutcn6RRV4g9oNM9xq50AdRcFYw_CEk4T9URApCTIlOCevPQV_M2IxI1ELNbeSpiSBQ0IEjDfiJynu7r0zbsBkgUHCBN4ufL7JKAGVYAHkYCPJogHAZAHAqgHhAioB6jSG6gHtgeoB-DPG6gH6dQbqAeMzRuoB7HcG6gHpJqxAqgHkZ-xAqgHsJuxAqgHgcYbqAeJorECqAfVzhuoB6vFG6gHnNwbqAfmnbECqAfIn7ECkggLdTV2UjA3VG5CRjioCAHSCAQIABACsQkztgqwhr16ncgJF8gJjwGYCwG6Cy4IAxAFGAYgBigBMAVAAUgAWAtgAGgAcAGIAQCYAQGiAQoKAiAD0AEBkAIC2AEB0AsTuAwBuBP___________8BsBQDwBWBgIBA0BUB2BUBmBYBgBcBihcICAMYASgBMAGgFwE&num=1&cid=CAESD-D2Q3YK2rAxLOAZEa6Mrw&ad_cpn=%5BCPN%5D&sig=AOD64_3GAvB5Tsck49ERXBIq0xFP1cjWYg&adurl=https://www.youtube.com/watch%3Fv%3Du5vR07TnBF8&ctype=21&video_id=u5vR07TnBF8&client=ca-pub-6219811747049371'><button> Learn how to Skii</button></a>
+	  
+		  </div>
+	</div>
+	<div class="hero-image-3">
+	  <div class="hero-text">
+	    <h4>Community</h4>
+	    
+	   </div>
+	</div>
+
+
+	<div class="row">
+		  <div class="column" style="padding:10%">
+		  	 <p style="text-align:left">Meet new people</p>
+	   		 <a href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cgd3b4fy8YdjiNf_co9kPsrKFqAKD3q6DZ7Wy5MaQD8CNtwEQASAAYMmm84zkpMATggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdf_8NkDqAMEqgSJAk_QbaM1uM1-ZVcyozcJXq47JrFWmBp0qGmDn8MCznhGICuaYYwpJoaqrz4KC2UCKaYKiCA9t2VYi0Mg1LQ0qkzvOYcH18TmPo11uOEf-3emFV4L7M0r5CPKniR87fEi0kgWPJ6sKy2NzNQZhHF_MjQrU_Nm6_N5tuZy4aQFrc8X-wjJbNp9Uc-rLuzm1dexQPwE7hXhy5A3sHflCXdJWhWq03jla9hUyWtahGtUyBtdSPX1Wi18_4r7H4t14Qo870dE_ttUSWEDcWbIqS6FF8bLWg1TI16lvb4gutcn6RRV4g9oNM9xq50AdRcFYw_CEk4T9URApCTIlOCevPQV_M2IxI1ELNbeSpiSBQ0IEjDfiJynu7r0zbsBkgUHCBN4ufL7JKAGVYAHkYCPJogHAZAHAqgHhAioB6jSG6gHtgeoB-DPG6gH6dQbqAeMzRuoB7HcG6gHpJqxAqgHkZ-xAqgHsJuxAqgHgcYbqAeJorECqAfVzhuoB6vFG6gHnNwbqAfmnbECqAfIn7ECkggLdTV2UjA3VG5CRjioCAHSCAQIABACsQkztgqwhr16ncgJF8gJjwGYCwG6Cy4IAxAFGAYgBigBMAVAAUgAWAtgAGgAcAGIAQCYAQGiAQoKAiAD0AEBkAIC2AEB0AsTuAwBuBP___________8BsBQDwBWBgIBA0BUB2BUBmBYBgBcBihcICAMYASgBMAGgFwE&num=1&cid=CAESD-D2Q3YK2rAxLOAZEa6Mrw&ad_cpn=%5BCPN%5D&sig=AOD64_3GAvB5Tsck49ERXBIq0xFP1cjWYg&adurl=https://www.youtube.com/watch%3Fv%3Du5vR07TnBF8&ctype=21&video_id=u5vR07TnBF8&client=ca-pub-6219811747049371'><button> Learn how to Skii</button></a>
+	  
+		  </div>
+		  <div class="column">
+		  <h3 style="text-align:left">Why?</h3>
+		  <p style="text-align:left"> Because do you know what is just as fun as doing things that only rich people can do? Meeting rich people that can invite you to more future rich people things! We have a great community center and interaction space on all of our slopes so come soon!</p>
+	   		 
+		  </div>
+	</div>
+	
+	</body>
+	<footer>
+  <p>Author: Sola babatunde</p>
+  <p>Contact at <a href="mailto:solababatunde@email.com">olusolababatunde.sb@gmail.com</a></p>
+</footer>
+</html>
